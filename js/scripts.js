@@ -60,7 +60,7 @@
 function openNav(proyecto) {
     var proyecto = proyecto;
     console.log(proyecto);
-  document.getElementById("mySidenav").style.width = "100%";
+  document.getElementById("mySidenav").style.display = "block";
    $(".closebtn").css("display", "block");
 
   if (proyecto === "p1") {
@@ -112,6 +112,6 @@ function openNav(proyecto) {
 
 /* Close/hide the sidenav */
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("mySidenav").style.display = "none";
     $(".closebtn").css("display", "none");
 }
